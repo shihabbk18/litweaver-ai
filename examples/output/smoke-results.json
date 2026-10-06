@@ -1,0 +1,17 @@
+{
+  "run_at_utc": "2026-10-05T20:05:31.796386+00:00",
+  "real_papers": 10,
+  "with_abstract": 10,
+  "providers": [
+    "OpenAlex"
+  ],
+  "api_warnings": [],
+  "sample_pdf_pages": 2,
+  "sample_pdf_claims": 10,
+  "sample_verdicts": {
+    "SUPPORTED": 5,
+    "CONTRADICTED": 2,
+    "INSUFFICIENT_EVIDENCE": 3
+  },
+  "pdf_warnings": []
+}

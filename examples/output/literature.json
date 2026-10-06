@@ -1,0 +1,299 @@
+{
+  "topic": "Machine Learning for Network Traffic Optimization",
+  "queries": [
+    "Machine Learning for Network Traffic Optimization",
+    "Machine Learning for Network Traffic Optimization methods evaluation",
+    "Machine Learning for Network Traffic Optimization limitations survey"
+  ],
+  "papers": [
+    {
+      "id": "https://openalex.org/W7131779329",
+      "title": "Leveraging Machine Learning for Call Traffic Analysis and Network Optimization",
+      "authors": [
+        "Subhojit Malik",
+        "Manish Kumar Singh",
+        "Subhajit Roy",
+        "Swarup Samanta",
+        "Swagata Roy Chowdhury",
+        "Jagadish Bhattacharya"
+      ],
+      "year": 2026,
+      "doi": "10.1201/9781003589143-12",
+      "venue": "CRC Press eBooks",
+      "abstract": "Analyzing call traffic data is crucial for improving network performance and managing congestion in communication systems. Features like call duration, signal strength, and tower distance play a key role in determining network performance. Machine learning (ML) techniques have been applied to predict and optimize network traffic in cellular networks. The data were first pre-processed by handling missing values, encoding categorical variables, and extracting time-based features. Exploratory analysis provided insights into feature distributions, correlations, and the presence of outliers. Anomaly detection was performed using Isolation Forest to identify unusual patterns, such as short calls or weak signals. These anomalies were visualized through scatter plots and analyzed for their impact on network quality. Dimensionality reduction using principal component analysis (PCA) helped highlight the data structure and improve visualization from the analysis of the clusters. Predictive modeling with Gradient Boosting Regressor was used to estimate call durations based on signal and environmental factors. Additionally, Gradient Boosting Classifier was used to classify congestion levels into low, medium, or high categories, providing useful insights for traffic management. Feature importance analysis identified the key drivers of network performance, and hyperparameter tuning further improved model accuracy. The results demonstrate effective anomaly detection, congestion control, and call traffic optimization for communication networks.",
+      "url": "https://doi.org/10.1201/9781003589143-12",
+      "provider": "OpenAlex",
+      "citations": 0,
+      "score": 1.0,
+      "metadata_notes": [
+        "DOI/title and available year agree with Crossref"
+      ],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W7167942501",
+      "title": "Machine Learning-Based Network Traffic Prediction for Intelligent Communication Network Optimization",
+      "authors": [
+        "NADIGOTTU Jashwanth NADIGOTTU Jashwanth",
+        "Tammisetty Venkata Sreeja Tammisetty Venkata Sreeja",
+        "A Mamatha A Mamatha"
+      ],
+      "year": 2026,
+      "doi": "10.55041/ijcope.v2i7.108",
+      "venue": "International Journal of Creative and Open Research in Engineering and Management",
+      "abstract": "The rapid growth of internet services, cloud computing, Internet of Things (IoT), multimedia streaming, and 5G/6G communication networks has significantly increased network complexity and traffic volume. Modern communication infrastructures must handle dynamic traffic patterns while maintaining high performance, low latency, and efficient resource utilization. Traditional traffic management approaches often struggle to accurately predict network congestion and changing user demands due to the highly dynamic nature of communication environments. Machine Learning (ML) has emerged as a powerful solution for network traffic prediction by enabling intelligent analysis of historical and real-time network data. ML-based traffic prediction techniques facilitate proactive resource allocation, congestion management, quality of service optimization, and network automation. This paper presents a comprehensive study of Machine Learning for Network Traffic Prediction and proposes an Artificial Intelligence-Based Traffic Prediction Framework (AI-TPF) designed to improve network efficiency and reliability. The proposed framework integrates deep learning models, real-time traffic analytics, adaptive resource allocation, and predictive network management mechanisms. Experimental evaluation demonstrates significant improvements in prediction accuracy, throughput optimization, latency reduction, and network utilization compared with conventional traffic forecasting methods. The findings indicate that machine learning-driven traffic prediction will become a fundamental technology for future intelligent communication networks and autonomous network management systems. Keywords— Network Traffic Prediction, Machine Learning, Artificial Intelligence, Deep Learning, Network Management, 6G Networks, Traffic Forecasting, Communication Systems.",
+      "url": "https://doi.org/10.55041/ijcope.v2i7.108",
+      "provider": "OpenAlex",
+      "citations": 0,
+      "score": 1.0,
+      "metadata_notes": [
+        "DOI/title and available year agree with Crossref"
+      ],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W4409197120",
+      "title": "Machine Learning in Network Traffic Analysis: Classification, Optimization, and Security",
+      "authors": [
+        "Yash Gujarathi",
+        "Yash Potekar"
+      ],
+      "year": 2025,
+      "doi": "10.22214/ijraset.2025.68216",
+      "venue": "International Journal for Research in Applied Science and Engineering Technology",
+      "abstract": "Abstract: With the rapid expansion of digital networks, ensuring efficient and secure network traffic management has become a significant challenge. Traditional rule-based approaches struggle to handle evolving traffic patterns, particularly with the increasing use of encryption. Machine learning (ML) has emerged as a powerful alternative, providing enhanced capabilities for traffic classification, anomaly detection, and optimization. This paper presents a comprehensive review of ML-based techniques, including supervised learning, unsupervised learning, deep learning, and graph-based learning. Key challenges such as data imbalance, real-time processing, and computational overhead are explored. The study consolidates findings from multiple research papers, emphasizing the role of AI-driven models in improving cybersecurity, traffic prediction, and quality of service (QoS). Future research directions include hybrid models, federated learning, and the integration of ML with emerging networking paradigms such as Software-Defined Networking (SDN) and 5G",
+      "url": "https://doi.org/10.22214/ijraset.2025.68216",
+      "provider": "OpenAlex",
+      "citations": 1,
+      "score": 1.0,
+      "metadata_notes": [
+        "DOI/title and available year agree with Crossref"
+      ],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W2364624428",
+      "title": "Network traffic forecasting model based on incremental optimization learning machine",
+      "authors": [
+        "Yan Bin"
+      ],
+      "year": 2015,
+      "doi": null,
+      "venue": "Information technology newsletter",
+      "abstract": "In order to get more ideal forecasting results of network traffic,in view of manually setting the hidden layers nodes number of extreme learning machine,this paper puts forward a forecasting model for network traffic based on incremental optimization extreme learning machine network traffic. Firstly,the extreme learning machine working principle and shortcomings are analyzed,and then the optimization of incremental mode is adopted to improve the performance of extreme learning machine,finally,the performance of incremental optimization extreme learning machine is test by using specific network traffic time series. The results show that the proposed model not only speeds up the network traffic modeling speed,can be applied to long-term and online prediction for network traffic,but also improves the prediction accuracy of network traffic compared with other network traffic prediction models.",
+      "url": "http://en.cnki.com.cn/Article_en/CJFDTotal-HDZJ201512049.htm",
+      "provider": "OpenAlex",
+      "citations": 0,
+      "score": 1.0,
+      "metadata_notes": [],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W4407953029",
+      "title": "Software Defined Network Traffic Classification for QoS Optimization Using Machine Learning",
+      "authors": [
+        "Rehab H. Serag",
+        "Mohamed S. Abdalzaher",
+        "Hussein Abd El Atty Elsayed",
+        "Mohamed Sobh"
+      ],
+      "year": 2025,
+      "doi": "10.1007/s10922-025-09911-6",
+      "venue": "Journal of Network and Systems Management",
+      "abstract": "Abstract In the era of rapidly expanding network infrastructures, ensuring optimal performance and quality of service (QoS) for diverse applications face significant challenges. Traditional traffic classification (TC) methods often fall short due to their inability to adapt to the dynamic and complex nature of modern network environments. To address this limitation, this paper proposes integrating software defined network (SDN) architecture with machine learning (ML) technology. The study examined four scenarios: multiclass classification and binary classification, both before and after scaling. We used various ML models, including linear, non-linear, and hybrid models. To evaluate the performance of these models, we utilized several evaluation metrics, such as accuracy, F1 score, kappa score, ROC curve, and confusion matrix. The paper examined different feature scaling methods, including standard scaling, min-max scaling, max-abs scaling, and robust scaling. The results showed that both min-max and max-abs scaling provided the best performance enhancement across the four scaling methods. Finally, XGBoost model provided the highest performance across all scenarios, with accuracy reaching up to 99.97%.",
+      "url": "https://doi.org/10.1007/s10922-025-09911-6",
+      "provider": "OpenAlex",
+      "citations": 14,
+      "score": 0.95,
+      "metadata_notes": [
+        "DOI/title and available year agree with Crossref"
+      ],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W3197818567",
+      "title": "Is Machine Learning Ready for Traffic Engineering Optimization?",
+      "authors": [
+        "Guillermo Bernárdez",
+        "José Suárez‐Varela",
+        "Albert València López",
+        "Bo Wu",
+        "Shihan Xiao",
+        "Xiangle Cheng",
+        "Pere Barlet‐Ros",
+        "Albert Cabellos‐Aparicio"
+      ],
+      "year": 2021,
+      "doi": "10.1109/icnp52444.2021.9651930",
+      "venue": null,
+      "abstract": "Traffic Engineering (TE) is a basic building block of the Internet. In this paper, we analyze whether modern Machine Learning (ML) methods are ready to be used for TE optimization. We address this open question through a comparative analysis between the state of the art in ML and the state of the art in TE. To this end, we first present a novel distributed system for TE that leverages the latest advancements in ML. Our system implements a novel architecture that combines Multi-Agent Reinforcement Learning (MARL) and Graph Neural Networks (GNN) to minimize network congestion. In our evaluation, we compare our MARL+GNN system with DEFO, a network optimizer based on Constraint Programming that represents the state of the art in TE. Our experimental results show that the proposed MARL+GNN solution achieves equivalent performance to DEFO in a wide variety of network scenarios including three real-world network topologies. At the same time, we show that MARL+GNN can achieve significant reductions in execution time (from the scale of minutes with DEFO to a few seconds with our solution).",
+      "url": "https://doi.org/10.1109/icnp52444.2021.9651930",
+      "provider": "OpenAlex",
+      "citations": 74,
+      "score": 0.85,
+      "metadata_notes": [
+        "DOI/title and available year agree with Crossref"
+      ],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W4286988169",
+      "title": "Is Machine Learning Ready for Traffic Engineering Optimization?",
+      "authors": [
+        "Guillermo Bernárdez",
+        "José Suárez‐Varela",
+        "Albert López",
+        "Bo Wu",
+        "Shihan Xiao",
+        "Xiangle Cheng",
+        "Pere Barlet‐Ros",
+        "Albert Cabellos‐Aparicio"
+      ],
+      "year": 2021,
+      "doi": "10.48550/arxiv.2109.01445",
+      "venue": "arXiv (Cornell University)",
+      "abstract": "Traffic Engineering (TE) is a basic building block of the Internet. In this paper, we analyze whether modern Machine Learning (ML) methods are ready to be used for TE optimization. We address this open question through a comparative analysis between the state of the art in ML and the state of the art in TE. To this end, we first present a novel distributed system for TE that leverages the latest advancements in ML. Our system implements a novel architecture that combines Multi-Agent Reinforcement Learning (MARL) and Graph Neural Networks (GNN) to minimize network congestion. In our evaluation, we compare our MARL+GNN system with DEFO, a network optimizer based on Constraint Programming that represents the state of the art in TE. Our experimental results show that the proposed MARL+GNN solution achieves equivalent performance to DEFO in a wide variety of network scenarios including three real-world network topologies. At the same time, we show that MARL+GNN can achieve significant reductions in execution time (from the scale of minutes with DEFO to a few seconds with our solution).",
+      "url": "http://arxiv.org/abs/2109.01445",
+      "provider": "OpenAlex",
+      "citations": 1,
+      "score": 0.85,
+      "metadata_notes": [],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W3173232262",
+      "title": "Machine Learning Classification and Regression Approaches for Optical Network Traffic Prediction",
+      "authors": [
+        "Daniel Szostak",
+        "Adam Włodarczyk",
+        "Krzysztof M. Walkowiak"
+      ],
+      "year": 2021,
+      "doi": "10.3390/electronics10131578",
+      "venue": "Electronics",
+      "abstract": "Rapid growth of network traffic causes the need for the development of new network technologies. Artificial intelligence provides suitable tools to improve currently used network optimization methods. In this paper, we propose a procedure for network traffic prediction. Based on optical networks’ (and other network technologies) characteristics, we focus on the prediction of fixed bitrate levels called traffic levels. We develop and evaluate two approaches based on different supervised machine learning (ML) methods—classification and regression. We examine four different ML models with various selected features. The tested datasets are based on real traffic patterns provided by the Seattle Internet Exchange Point (SIX). Obtained results are analyzed using a new quality metric, which allows researchers to find the best forecasting algorithm in terms of network resources usage and operational costs. Our research shows that regression provides better results than classification in case of all analyzed datasets. Additionally, the final choice of the most appropriate ML algorithm and model should depend on the network operator expectations.",
+      "url": "https://doi.org/10.3390/electronics10131578",
+      "provider": "OpenAlex",
+      "citations": 35,
+      "score": 0.85,
+      "metadata_notes": [],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W4405602492",
+      "title": "Anomaly Identification and Classification of Network Traffic Using Optimized Machine Learning Approach",
+      "authors": [
+        "Vishwanath Eswarakrishnan",
+        "Priyanka Singla"
+      ],
+      "year": 2024,
+      "doi": "10.1109/picom64201.2024.00022",
+      "venue": null,
+      "abstract": "The rapid digital transformation and the exponential increase in network traffic have made the maintenance of the security and integrity of network systems a very urgent matter. Given the constant evolution of networks, detecting anomalies in network traffic becomes essential for network operations' stability and reliability. However, the dramatically changing complex environment of network traffic has made traditional classification methods inadequate. Most conventional methods focus on either the detection delay or the accuracy of detection, totally overlooking the interplay between the two metrics. This paper introduces an optimized machine-learning approach to bridge this gap. Equipped with advanced feature engineering in data cleaning and preprocessing, hyperparameter tuning through random search, and the four machine learning models of Gradient Boosting, K-Nearest Neighbors, Random Forest, and Naive Bayes, we strive to come up with a robust anomaly detection system. The results were brilliant, with the Random Forest model having an accuracy of 100%, F1-score, recall, and AUC. ROC curve analysis is not limited to basic model performance metrics like false-positive and false-negative rates. Also, our proposed approach was tested with real-world testing computation and returned a response time of less than 0.11 seconds, making this suitable for low-latency devices. This task will show the advantages of our optimized Random Forest model, beyond existing methods, with massive potential for real-world network traffic anomaly detection applications.",
+      "url": "https://doi.org/10.1109/picom64201.2024.00022",
+      "provider": "OpenAlex",
+      "citations": 3,
+      "score": 0.8,
+      "metadata_notes": [],
+      "retracted": false
+    },
+    {
+      "id": "https://openalex.org/W4406261330",
+      "title": "Network Traffic Classification Using Machine Learning",
+      "authors": [
+        "Zahraa Abbas Hasan Tayyeh",
+        "Raaid Alubady",
+        "Mohammed Molhem",
+        "Mohammed Alsamman"
+      ],
+      "year": 2024,
+      "doi": "10.1109/netapps63333.2024.10823428",
+      "venue": null,
+      "abstract": "Network traffic classification is crucial for managing and optimizing the performance of communication networks. Traditional traffic classification methods rely on port-based or payload-based approaches, which have become less effective due to the rise of encryption and dynamic port assignments. This paper proposes a classification methodology based on machine learning algorithms, to identify and categorize network traffic patterns. Then the identified patterns form a model capable of distinguishing “heavy traffic” connections from typical “light traffic” connections. The used Machine Learning algorithms include Decision Trees (DT), Support Vector Machines (SVMs), and K-Nearest Neighbors (KNN). The results of the proposed methodology demonstrate that machine learning algorithms significantly improve traffic classification accuracy, and the better evaluation criteria in predicting network traffic are the decision trees where DT accuracy is 94.71%, In contrast, the SVM accuracy is 91.52%, and KNN 94.28%.",
+      "url": "https://doi.org/10.1109/netapps63333.2024.10823428",
+      "provider": "OpenAlex",
+      "citations": 1,
+      "score": 0.8,
+      "metadata_notes": [],
+      "retracted": false
+    }
+  ],
+  "warnings": [],
+  "trace": [
+    {
+      "tool": "search_papers",
+      "arguments": {
+        "query": "Machine Learning for Network Traffic Optimization",
+        "provider": "OpenAlex"
+      },
+      "status": "ok",
+      "summary": "10 genuine records",
+      "elapsed_ms": 2717
+    },
+    {
+      "tool": "search_papers",
+      "arguments": {
+        "query": "Machine Learning for Network Traffic Optimization methods evaluation",
+        "provider": "OpenAlex"
+      },
+      "status": "ok",
+      "summary": "10 genuine records",
+      "elapsed_ms": 952
+    },
+    {
+      "tool": "search_papers",
+      "arguments": {
+        "query": "Machine Learning for Network Traffic Optimization limitations survey",
+        "provider": "OpenAlex"
+      },
+      "status": "ok",
+      "summary": "10 genuine records",
+      "elapsed_ms": 1891
+    },
+    {
+      "tool": "retrieve_publication_metadata",
+      "arguments": {
+        "doi": "10.1201/9781003589143-12"
+      },
+      "status": "ok",
+      "summary": "DOI/title and available year agree with Crossref",
+      "elapsed_ms": 0
+    },
+    {
+      "tool": "retrieve_publication_metadata",
+      "arguments": {
+        "doi": "10.55041/ijcope.v2i7.108"
+      },
+      "status": "ok",
+      "summary": "DOI/title and available year agree with Crossref",
+      "elapsed_ms": 0
+    },
+    {
+      "tool": "retrieve_publication_metadata",
+      "arguments": {
+        "doi": "10.22214/ijraset.2025.68216"
+      },
+      "status": "ok",
+      "summary": "DOI/title and available year agree with Crossref",
+      "elapsed_ms": 0
+    },
+    {
+      "tool": "retrieve_publication_metadata",
+      "arguments": {
+        "doi": "10.1007/s10922-025-09911-6"
+      },
+      "status": "ok",
+      "summary": "DOI/title and available year agree with Crossref",
+      "elapsed_ms": 0
+    },
+    {
+      "tool": "retrieve_publication_metadata",
+      "arguments": {
+        "doi": "10.1109/icnp52444.2021.9651930"
+      },
+      "status": "ok",
+      "summary": "DOI/title and available year agree with Crossref",
+      "elapsed_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[project]
+name = "litweaver-ai"
+version = "0.1.0"
+description = "Evidence-grounded literature discovery and conservative research verification"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

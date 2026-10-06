@@ -1,0 +1,22 @@
+[
+  {"id":"correct_comparison","category":"correct numerical comparison","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 87.4%.","Model B accuracy = 84.2%."]},
+  {"id":"incorrect_comparison","category":"incorrect numerical comparison","claim":"Model B achieved higher classification accuracy than Model A.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 87.4%.","Model B accuracy = 84.2%."]},
+  {"id":"wrong_percentage","category":"incorrect percentage calculation","claim":"Accuracy improved by 12% from 80.0% to 92.0%.","evidence":[]},
+  {"id":"right_percentage","category":"supported percentage calculation","claim":"Accuracy improved by 15% from 80.0% to 92.0%.","evidence":[]},
+  {"id":"right_points","category":"supported percentage-point calculation","claim":"Accuracy increased by 12 percentage points from 80.0% to 92.0%.","evidence":[]},
+  {"id":"wrong_points","category":"incorrect percentage-point calculation","claim":"Accuracy increased by 15 percentage points from 80.0% to 92.0%.","evidence":[]},
+  {"id":"supported_value","category":"supported claim","claim":"Model A achieved 92.0% accuracy.","context":"dataset=demo; split=test; run=1","evidence":["The results table reports Model A accuracy = 92.0%."]},
+  {"id":"unsupported_claim","category":"unsupported conclusion","claim":"Our findings prove this algorithm generalizes to all hospitals.","evidence":["The trial included one hospital."]},
+  {"id":"contradictory_value","category":"contradictory statement","claim":"Model A achieved 92.0% accuracy.","context":"dataset=demo; split=test; run=1","evidence":["Results: Model A accuracy = 82.0%."]},
+  {"id":"missing_evidence","category":"missing evidence","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":[]},
+  {"id":"equal_values","category":"equal numerical values","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 90.0%.","Model B accuracy = 90.0%."]},
+  {"id":"equal_claim","category":"supported equality","claim":"Model A achieved equal accuracy to Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 90.0%.","Model B accuracy = 90.0%."]},
+  {"id":"rounding_sensitive","category":"rounding-sensitive example","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 90.0%.","Model B accuracy = 89.96%."]},
+  {"id":"incomparable_context","category":"values from incomparable contexts","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":[{"text":"Model A accuracy = 87.4%.","context":"dataset=demo; split=test; run=1"},{"text":"Model B accuracy = 84.2%.","context":"dataset=other; split=test; run=1"}]},
+  {"id":"unknown_context","category":"context missing","claim":"Model A achieved higher accuracy than Model B.","evidence":["Model A accuracy = 87.4%.","Model B accuracy = 84.2%."]},
+  {"id":"different_units","category":"incomparable units","claim":"Model A achieved lower latency than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A latency = 80.0 ms.","Model B latency = 1.0 s."]},
+  {"id":"metric_direction","category":"lower is better","claim":"Model A achieved better latency than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A latency = 10.0 ms.","Model B latency = 20.0 ms."]},
+  {"id":"zero_baseline","category":"undefined relative change","claim":"Accuracy improved by 15% from 0% to 15%.","evidence":[]},
+  {"id":"negated_comparison","category":"negation abstention","claim":"Model A did not achieve higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 87.4%.","Model B accuracy = 84.2%."]},
+  {"id":"repeated_ambiguous_values","category":"conflicting underlying observations","claim":"Model A achieved higher accuracy than Model B.","context":"dataset=demo; split=test; run=1","evidence":["Model A accuracy = 87.4%.","Model A accuracy = 80.0%.","Model B accuracy = 84.2%."]}
+]

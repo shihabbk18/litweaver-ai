@@ -1,0 +1,1261 @@
+{
+  "document": {
+    "name": "numerical-audit.pdf",
+    "sha256": "15b6f9ed53dde32de58621c1cee04df19bb591751faf75e45bd543f91b463288",
+    "page_count": 2,
+    "evidence": [
+      {
+        "id": "15b6f9ed53-p1-b0-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "LITWEAVER AI / EVALUATION FIXTURE",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          53.32500076293945,
+          228.54298400878906,
+          65.69100189208984
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b1-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "A numerical audit, with known errors",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          147.95999145507812,
+          65.73999786376953,
+          464.0399169921875,
+          90.5260009765625
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b2-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Synthetic demonstration - not a real scientific paper",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          100.0199966430664,
+          405.42193603515625,
+          119.29800415039062
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b3-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "This document intentionally contains correct and incorrect claims.",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          124.17500305175781,
+          544.781005859375,
+          139.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b3-s1",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "It tests source tracking, arithmetic",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          124.17500305175781,
+          544.781005859375,
+          139.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b4-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "and abstention.",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          141.1750030517578,
+          390.7919921875,
+          156.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b4-s1",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "The values are invented solely as labelled test data.",
+        "kind": "text",
+        "section": "Unrecognized section",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          141.1750030517578,
+          390.7919921875,
+          156.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b6-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Context demo/test/run1 denotes the Demo dataset, held-out test split, first run, with the same",
+        "kind": "text",
+        "section": "Methods",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          198.1750030517578,
+          512.4410400390625,
+          213.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b7-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "classification setting for both models.",
+        "kind": "text",
+        "section": "Methods",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          215.1750030517578,
+          539.9298706054688,
+          230.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b7-s1",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "The table below is machine-readable and has explicit context",
+        "kind": "text",
+        "section": "Methods",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          215.1750030517578,
+          539.9298706054688,
+          230.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b8-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "labels.",
+        "kind": "text",
+        "section": "Methods",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          232.1750030517578,
+          91.79000091552734,
+          247.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b10-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Model Accuracy (%) Context",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          73.0,
+          299.29998779296875,
+          380.2199401855469,
+          313.07000732421875
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b11-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Model A 87.4 demo/test/run1",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          73.0,
+          331.25,
+          409.699951171875,
+          344.989990234375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b12-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Model B 84.2 demo/test/run1",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          73.0,
+          363.25,
+          409.699951171875,
+          376.989990234375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b13-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "[context: demo/test/run1] Model A accuracy = 87.4%.",
+        "kind": "text",
+        "section": "Results",
+        "context": "demo/test/run1",
+        "cells": null,
+        "bbox": [
+          60.0,
+          409.17498779296875,
+          318.323974609375,
+          424.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b14-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "[context: demo/test/run1] Model B accuracy = 84.2%.",
+        "kind": "text",
+        "section": "Results",
+        "context": "demo/test/run1",
+        "cells": null,
+        "bbox": [
+          60.0,
+          442.17498779296875,
+          318.323974609375,
+          457.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b15-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "A separate arithmetic example uses a baseline accuracy of 80.0% and a new accuracy of 92.0%.",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          475.32501220703125,
+          547.7371826171875,
+          500.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b15-s1",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "These values are not the model-comparison experiment above.",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          475.32501220703125,
+          547.7371826171875,
+          500.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-b16-s0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "LitWeaver AI | Synthetic verification fixture - no real scientific findings 1",
+        "kind": "text",
+        "section": "Results",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          48.0,
+          751.4000244140625,
+          560.0,
+          762.3920288085938
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p1-t0",
+        "document": "numerical-audit.pdf",
+        "page": 1,
+        "text": "Model | Accuracy (%) | Context\nModel A | 87.4 | demo/test/run1\nModel B | 84.2 | demo/test/run1",
+        "kind": "table",
+        "section": "Results",
+        "context": null,
+        "cells": [
+          [
+            "Model",
+            "Accuracy (%)",
+            "Context"
+          ],
+          [
+            "Model A",
+            "87.4",
+            "demo/test/run1"
+          ],
+          [
+            "Model B",
+            "84.2",
+            "demo/test/run1"
+          ]
+        ],
+        "bbox": [
+          61.0,
+          290.0,
+          551.0,
+          386.0
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b1-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "[context: demo/test/run1] Model B achieved higher classification accuracy than Model A.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": "demo/test/run1",
+        "cells": null,
+        "bbox": [
+          60.0,
+          77.17500305175781,
+          488.58197021484375,
+          92.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b2-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "[context: demo/test/run1] Model A achieved higher accuracy than Model B.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": "demo/test/run1",
+        "cells": null,
+        "bbox": [
+          60.0,
+          110.17500305175781,
+          423.1759948730469,
+          125.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b3-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Accuracy improved by 12% from 80.0% to 92.0%.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          143.1750030517578,
+          302.0989685058594,
+          158.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b4-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Accuracy improved by 15% from 80.0% to 92.0%.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          176.1750030517578,
+          302.0989685058594,
+          191.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b5-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Accuracy increased by 12 percentage points from 80.0% to 92.0%.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          209.1750030517578,
+          385.2699890136719,
+          224.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b6-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Our findings prove that the approach generalizes to all hospitals.",
+        "kind": "text",
+        "section": "Discussion",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          242.1750030517578,
+          373.6539306640625,
+          257.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b8-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Only one synthetic dataset and one run are described.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          299.17498779296875,
+          549.7418823242188,
+          314.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b8-s1",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "No independent replication or external validity",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          299.17498779296875,
+          549.7418823242188,
+          314.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b9-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "evidence is supplied.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          316.17498779296875,
+          436.001953125,
+          331.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b9-s1",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "The broad hospital claim has no supporting experiment.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          316.17498779296875,
+          436.001953125,
+          331.28900146484375
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b10-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Expected audit behavior",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          349.0199890136719,
+          221.8260040283203,
+          368.2980041503906
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b11-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Flag the claim that Model B has higher accuracy.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          373.32501220703125,
+          542.76904296875,
+          411.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b11-s1",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Distinguish the incorrect 12% relative change from the correct 15% relative change and 12 percentage-point change.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          373.32501220703125,
+          542.76904296875,
+          411.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b11-s2",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Abstain on the broad generalization.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          373.32501220703125,
+          542.76904296875,
+          411.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b11-s3",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "Preserve the actual PDF page and evidence identifiers for each finding.",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          60.0,
+          373.32501220703125,
+          542.76904296875,
+          411.6910095214844
+        ]
+      },
+      {
+        "id": "15b6f9ed53-p2-b12-s0",
+        "document": "numerical-audit.pdf",
+        "page": 2,
+        "text": "LitWeaver AI | Synthetic verification fixture - no real scientific findings 2",
+        "kind": "text",
+        "section": "Limitations",
+        "context": null,
+        "cells": null,
+        "bbox": [
+          48.0,
+          751.4000244140625,
+          560.0,
+          762.3920288085938
+        ]
+      }
+    ],
+    "warnings": []
+  },
+  "results": [
+    {
+      "claim": {
+        "id": "C001",
+        "text": "[context: demo/test/run1] Model A accuracy = 87.4%.",
+        "source_id": "15b6f9ed53-p1-b13-s0",
+        "kind": "value",
+        "context": "demo/test/run1"
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "A separate source excerpt reports the same value in the same explicit context.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p1-b13-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model A accuracy = 87.4%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            409.17498779296875,
+            318.323974609375,
+            424.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-t0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "Model | Accuracy (%) | Context\nModel A | 87.4 | demo/test/run1\nModel B | 84.2 | demo/test/run1",
+          "kind": "table",
+          "section": "Results",
+          "context": null,
+          "cells": [
+            [
+              "Model",
+              "Accuracy (%)",
+              "Context"
+            ],
+            [
+              "Model A",
+              "87.4",
+              "demo/test/run1"
+            ],
+            [
+              "Model B",
+              "84.2",
+              "demo/test/run1"
+            ]
+          ],
+          "bbox": [
+            61.0,
+            290.0,
+            551.0,
+            386.0
+          ]
+        }
+      ],
+      "method": "Deterministic within-document numerical consistency",
+      "calculation": "Claim: 87.4 %; other reported values: 87.4 %",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C002",
+        "text": "[context: demo/test/run1] Model B accuracy = 84.2%.",
+        "source_id": "15b6f9ed53-p1-b14-s0",
+        "kind": "value",
+        "context": "demo/test/run1"
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "A separate source excerpt reports the same value in the same explicit context.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p1-b14-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model B accuracy = 84.2%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            442.17498779296875,
+            318.323974609375,
+            457.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-t0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "Model | Accuracy (%) | Context\nModel A | 87.4 | demo/test/run1\nModel B | 84.2 | demo/test/run1",
+          "kind": "table",
+          "section": "Results",
+          "context": null,
+          "cells": [
+            [
+              "Model",
+              "Accuracy (%)",
+              "Context"
+            ],
+            [
+              "Model A",
+              "87.4",
+              "demo/test/run1"
+            ],
+            [
+              "Model B",
+              "84.2",
+              "demo/test/run1"
+            ]
+          ],
+          "bbox": [
+            61.0,
+            290.0,
+            551.0,
+            386.0
+          ]
+        }
+      ],
+      "method": "Deterministic within-document numerical consistency",
+      "calculation": "Claim: 84.2 %; other reported values: 84.2 %",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C003",
+        "text": "[context: demo/test/run1] Model B achieved higher classification accuracy than Model A.",
+        "source_id": "15b6f9ed53-p2-b1-s0",
+        "kind": "comparison",
+        "context": "demo/test/run1"
+      },
+      "verdict": "CONTRADICTED",
+      "explanation": "Comparison conflicts with reported values.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b1-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "[context: demo/test/run1] Model B achieved higher classification accuracy than Model A.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            77.17500305175781,
+            488.58197021484375,
+            92.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b14-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model B accuracy = 84.2%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            442.17498779296875,
+            318.323974609375,
+            457.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-t0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "Model | Accuracy (%) | Context\nModel A | 87.4 | demo/test/run1\nModel B | 84.2 | demo/test/run1",
+          "kind": "table",
+          "section": "Results",
+          "context": null,
+          "cells": [
+            [
+              "Model",
+              "Accuracy (%)",
+              "Context"
+            ],
+            [
+              "Model A",
+              "87.4",
+              "demo/test/run1"
+            ],
+            [
+              "Model B",
+              "84.2",
+              "demo/test/run1"
+            ]
+          ],
+          "bbox": [
+            61.0,
+            290.0,
+            551.0,
+            386.0
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b13-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model A accuracy = 87.4%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            409.17498779296875,
+            318.323974609375,
+            424.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic comparison of contextualized reported values",
+      "calculation": "model b: 84.2 %; model a: 87.4 %. Reported difference = -3.2 percentage points.",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C004",
+        "text": "[context: demo/test/run1] Model A achieved higher accuracy than Model B.",
+        "source_id": "15b6f9ed53-p2-b2-s0",
+        "kind": "comparison",
+        "context": "demo/test/run1"
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "Comparison agrees with reported values.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b2-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "[context: demo/test/run1] Model A achieved higher accuracy than Model B.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            110.17500305175781,
+            423.1759948730469,
+            125.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b13-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model A accuracy = 87.4%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            409.17498779296875,
+            318.323974609375,
+            424.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-t0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "Model | Accuracy (%) | Context\nModel A | 87.4 | demo/test/run1\nModel B | 84.2 | demo/test/run1",
+          "kind": "table",
+          "section": "Results",
+          "context": null,
+          "cells": [
+            [
+              "Model",
+              "Accuracy (%)",
+              "Context"
+            ],
+            [
+              "Model A",
+              "87.4",
+              "demo/test/run1"
+            ],
+            [
+              "Model B",
+              "84.2",
+              "demo/test/run1"
+            ]
+          ],
+          "bbox": [
+            61.0,
+            290.0,
+            551.0,
+            386.0
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b14-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "[context: demo/test/run1] Model B accuracy = 84.2%.",
+          "kind": "text",
+          "section": "Results",
+          "context": "demo/test/run1",
+          "cells": null,
+          "bbox": [
+            60.0,
+            442.17498779296875,
+            318.323974609375,
+            457.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic comparison of contextualized reported values",
+      "calculation": "model a: 87.4 %; model b: 84.2 %. Reported difference = 3.2 percentage points.",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C005",
+        "text": "Accuracy improved by 12% from 80.0% to 92.0%.",
+        "source_id": "15b6f9ed53-p2-b3-s0",
+        "kind": "change",
+        "context": null
+      },
+      "verdict": "CONTRADICTED",
+      "explanation": "The claimed change conflicts with the stated inputs, even allowing for displayed rounding.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b3-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Accuracy improved by 12% from 80.0% to 92.0%.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            143.1750030517578,
+            302.0989685058594,
+            158.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic percentage/percentage-point arithmetic",
+      "calculation": "1 \u00d7 (92 - 80) / 80 \u00d7 100 = 15 %; claimed 12.",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+        "Operands come from this statement; agreement does not independently corroborate them."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C006",
+        "text": "Accuracy improved by 15% from 80.0% to 92.0%.",
+        "source_id": "15b6f9ed53-p2-b4-s0",
+        "kind": "change",
+        "context": null
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "The stated arithmetic agrees with the displayed values at the claim's precision.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b4-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Accuracy improved by 15% from 80.0% to 92.0%.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            176.1750030517578,
+            302.0989685058594,
+            191.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic percentage/percentage-point arithmetic",
+      "calculation": "1 \u00d7 (92 - 80) / 80 \u00d7 100 = 15 %; claimed 15.",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+        "Operands come from this statement; agreement does not independently corroborate them."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C007",
+        "text": "Accuracy increased by 12 percentage points from 80.0% to 92.0%.",
+        "source_id": "15b6f9ed53-p2-b5-s0",
+        "kind": "change",
+        "context": null
+      },
+      "verdict": "SUPPORTED",
+      "explanation": "The stated arithmetic agrees with the displayed values at the claim's precision.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b5-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Accuracy increased by 12 percentage points from 80.0% to 92.0%.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            209.1750030517578,
+            385.2699890136719,
+            224.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic percentage/percentage-point arithmetic",
+      "calculation": "1 \u00d7 (92 - 80) = 12 percentage points; claimed 12.",
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+        "Operands come from this statement; agreement does not independently corroborate them."
+      ],
+      "review_required": false
+    },
+    {
+      "claim": {
+        "id": "C008",
+        "text": "Our findings prove that the approach generalizes to all hospitals.",
+        "source_id": "15b6f9ed53-p2-b6-s0",
+        "kind": "interpretive",
+        "context": null
+      },
+      "verdict": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Related passages are candidates only. The supported grammar or explicit contextual evidence is insufficient for a verdict.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b6-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Our findings prove that the approach generalizes to all hospitals.",
+          "kind": "text",
+          "section": "Discussion",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            242.1750030517578,
+            373.6539306640625,
+            257.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b16-s0",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "LitWeaver AI | Synthetic verification fixture - no real scientific findings 1",
+          "kind": "text",
+          "section": "Results",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            48.0,
+            751.4000244140625,
+            560.0,
+            762.3920288085938
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p2-b12-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "LitWeaver AI | Synthetic verification fixture - no real scientific findings 2",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            48.0,
+            751.4000244140625,
+            560.0,
+            762.3920288085938
+          ]
+        }
+      ],
+      "method": "Deterministic verification",
+      "calculation": null,
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": true
+    },
+    {
+      "claim": {
+        "id": "C009",
+        "text": "The broad hospital claim has no supporting experiment.",
+        "source_id": "15b6f9ed53-p2-b9-s1",
+        "kind": "interpretive",
+        "context": null
+      },
+      "verdict": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Related passages are candidates only. The supported grammar or explicit contextual evidence is insufficient for a verdict.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b9-s1",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "The broad hospital claim has no supporting experiment.",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            316.17498779296875,
+            436.001953125,
+            331.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p2-b11-s0",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Flag the claim that Model B has higher accuracy.",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            373.32501220703125,
+            542.76904296875,
+            411.6910095214844
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p2-b11-s2",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Abstain on the broad generalization.",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            373.32501220703125,
+            542.76904296875,
+            411.6910095214844
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b7-s1",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "The table below is machine-readable and has explicit context",
+          "kind": "text",
+          "section": "Methods",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            215.1750030517578,
+            539.9298706054688,
+            230.28900146484375
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p1-b15-s1",
+          "document": "numerical-audit.pdf",
+          "page": 1,
+          "text": "These values are not the model-comparison experiment above.",
+          "kind": "text",
+          "section": "Results",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            475.32501220703125,
+            547.7371826171875,
+            500.6910095214844
+          ]
+        }
+      ],
+      "method": "Deterministic verification",
+      "calculation": null,
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": true
+    },
+    {
+      "claim": {
+        "id": "C010",
+        "text": "Abstain on the broad generalization.",
+        "source_id": "15b6f9ed53-p2-b11-s2",
+        "kind": "interpretive",
+        "context": null
+      },
+      "verdict": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Related passages are candidates only. The supported grammar or explicit contextual evidence is insufficient for a verdict.",
+      "evidence": [
+        {
+          "id": "15b6f9ed53-p2-b11-s2",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "Abstain on the broad generalization.",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            373.32501220703125,
+            542.76904296875,
+            411.6910095214844
+          ]
+        },
+        {
+          "id": "15b6f9ed53-p2-b9-s1",
+          "document": "numerical-audit.pdf",
+          "page": 2,
+          "text": "The broad hospital claim has no supporting experiment.",
+          "kind": "text",
+          "section": "Limitations",
+          "context": null,
+          "cells": null,
+          "bbox": [
+            60.0,
+            316.17498779296875,
+            436.001953125,
+            331.28900146484375
+          ]
+        }
+      ],
+      "method": "Deterministic verification",
+      "calculation": null,
+      "limitations": [
+        "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+      ],
+      "review_required": true
+    }
+  ]
+}

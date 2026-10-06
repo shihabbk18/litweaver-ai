@@ -1,0 +1,22 @@
+{
+  "correct_comparison": {"verdict":"SUPPORTED","calculation_contains":"difference = 3.2","required_evidence":["E0","E1","E2"]},
+  "incorrect_comparison": {"verdict":"CONTRADICTED","calculation_contains":"difference = -3.2","required_evidence":["E0","E1","E2"]},
+  "wrong_percentage": {"verdict":"CONTRADICTED","calculation_contains":"= 15 %","required_evidence":["E0"]},
+  "right_percentage": {"verdict":"SUPPORTED","calculation_contains":"= 15 %","required_evidence":["E0"]},
+  "right_points": {"verdict":"SUPPORTED","calculation_contains":"= 12 percentage points","required_evidence":["E0"]},
+  "wrong_points": {"verdict":"CONTRADICTED","calculation_contains":"= 12 percentage points","required_evidence":["E0"]},
+  "supported_value": {"verdict":"SUPPORTED","calculation_contains":"Claim: 92 %","required_evidence":["E0","E1"]},
+  "unsupported_claim": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "contradictory_value": {"verdict":"CONTRADICTED","calculation_contains":"82 %","required_evidence":["E0","E1"]},
+  "missing_evidence": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "equal_values": {"verdict":"CONTRADICTED","calculation_contains":"difference = 0","required_evidence":["E0","E1","E2"]},
+  "equal_claim": {"verdict":"SUPPORTED","calculation_contains":"difference = 0","required_evidence":["E0","E1","E2"]},
+  "rounding_sensitive": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0","E1","E2"]},
+  "incomparable_context": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "unknown_context": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "different_units": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0","E1","E2"]},
+  "metric_direction": {"verdict":"SUPPORTED","calculation_contains":"difference = -10","required_evidence":["E0","E1","E2"]},
+  "zero_baseline": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "negated_comparison": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0"]},
+  "repeated_ambiguous_values": {"verdict":"INSUFFICIENT_EVIDENCE","required_evidence":["E0","E1","E2","E3"]}
+}

@@ -1,0 +1,978 @@
+{
+  "run_at_utc": "2026-10-05T20:01:00.963139+00:00",
+  "disclaimer": "Small synthetic MVP evaluation, not a validated scientific peer-review benchmark. Cases exercise supported grammar, not general-paper recall.",
+  "cases": 20,
+  "verdict_accuracy": 1.0,
+  "correct_verdicts": 20,
+  "numerical_correctness": 1.0,
+  "numerical_cases": 11,
+  "evidence_reference_validity": 1.0,
+  "abstention_accuracy": 1.0,
+  "abstention_cases": 9,
+  "outputs": [
+    {
+      "id": "correct_comparison",
+      "category": "correct numerical comparison",
+      "result": {
+        "claim": {
+          "id": "correct_comparison",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "Comparison agrees with reported values.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 87.4%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 84.2%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 87.4 %; model b: 84.2 %. Reported difference = 3.2 percentage points.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "incorrect_comparison",
+      "category": "incorrect numerical comparison",
+      "result": {
+        "claim": {
+          "id": "incorrect_comparison",
+          "text": "Model B achieved higher classification accuracy than Model A.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "CONTRADICTED",
+        "explanation": "Comparison conflicts with reported values.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model B achieved higher classification accuracy than Model A.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 84.2%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 87.4%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model b: 84.2 %; model a: 87.4 %. Reported difference = -3.2 percentage points.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "wrong_percentage",
+      "category": "incorrect percentage calculation",
+      "result": {
+        "claim": {
+          "id": "wrong_percentage",
+          "text": "Accuracy improved by 12% from 80.0% to 92.0%.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "CONTRADICTED",
+        "explanation": "The claimed change conflicts with the stated inputs, even allowing for displayed rounding.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Accuracy improved by 12% from 80.0% to 92.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic percentage/percentage-point arithmetic",
+        "calculation": "1 \u00d7 (92 - 80) / 80 \u00d7 100 = 15 %; claimed 12.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+          "Operands come from this statement; agreement does not independently corroborate them."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "right_percentage",
+      "category": "supported percentage calculation",
+      "result": {
+        "claim": {
+          "id": "right_percentage",
+          "text": "Accuracy improved by 15% from 80.0% to 92.0%.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "The stated arithmetic agrees with the displayed values at the claim's precision.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Accuracy improved by 15% from 80.0% to 92.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic percentage/percentage-point arithmetic",
+        "calculation": "1 \u00d7 (92 - 80) / 80 \u00d7 100 = 15 %; claimed 15.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+          "Operands come from this statement; agreement does not independently corroborate them."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "right_points",
+      "category": "supported percentage-point calculation",
+      "result": {
+        "claim": {
+          "id": "right_points",
+          "text": "Accuracy increased by 12 percentage points from 80.0% to 92.0%.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "The stated arithmetic agrees with the displayed values at the claim's precision.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Accuracy increased by 12 percentage points from 80.0% to 92.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic percentage/percentage-point arithmetic",
+        "calculation": "1 \u00d7 (92 - 80) = 12 percentage points; claimed 12.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+          "Operands come from this statement; agreement does not independently corroborate them."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "wrong_points",
+      "category": "incorrect percentage-point calculation",
+      "result": {
+        "claim": {
+          "id": "wrong_points",
+          "text": "Accuracy increased by 15 percentage points from 80.0% to 92.0%.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "CONTRADICTED",
+        "explanation": "The claimed change conflicts with the stated inputs, even allowing for displayed rounding.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Accuracy increased by 15 percentage points from 80.0% to 92.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic percentage/percentage-point arithmetic",
+        "calculation": "1 \u00d7 (92 - 80) = 12 percentage points; claimed 15.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity.",
+          "Operands come from this statement; agreement does not independently corroborate them."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "supported_value",
+      "category": "supported claim",
+      "result": {
+        "claim": {
+          "id": "supported_value",
+          "text": "Model A achieved 92.0% accuracy.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "A separate source excerpt reports the same value in the same explicit context.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved 92.0% accuracy.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "The results table reports Model A accuracy = 92.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic within-document numerical consistency",
+        "calculation": "Claim: 92 %; other reported values: 92 %",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "unsupported_claim",
+      "category": "unsupported conclusion",
+      "result": {
+        "claim": {
+          "id": "unsupported_claim",
+          "text": "Our findings prove this algorithm generalizes to all hospitals.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Related passages are candidates only. The supported grammar or explicit contextual evidence is insufficient for a verdict.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Our findings prove this algorithm generalizes to all hospitals.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": true
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "contradictory_value",
+      "category": "contradictory statement",
+      "result": {
+        "claim": {
+          "id": "contradictory_value",
+          "text": "Model A achieved 92.0% accuracy.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "CONTRADICTED",
+        "explanation": "Different values are reported for the same model, metric, unit and explicit context. Neither is established as the true value.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved 92.0% accuracy.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Results: Model A accuracy = 82.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic within-document numerical consistency",
+        "calculation": "Claim: 92 %; other reported values: 82 %",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": true
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "missing_evidence",
+      "category": "missing evidence",
+      "result": {
+        "claim": {
+          "id": "missing_evidence",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Both models need values for the same metric, units, and explicit context.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "equal_values",
+      "category": "equal numerical values",
+      "result": {
+        "claim": {
+          "id": "equal_values",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "CONTRADICTED",
+        "explanation": "Comparison conflicts with reported values.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 90.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 90.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 90 %; model b: 90 %. Reported difference = 0 percentage points.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "equal_claim",
+      "category": "supported equality",
+      "result": {
+        "claim": {
+          "id": "equal_claim",
+          "text": "Model A achieved equal accuracy to Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "Comparison agrees with reported values.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved equal accuracy to Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 90.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 90.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 90 %; model b: 90 %. Reported difference = 0 percentage points.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "rounding_sensitive",
+      "category": "rounding-sensitive example",
+      "result": {
+        "claim": {
+          "id": "rounding_sensitive",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Units or rounding prevent a reliable comparison.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 90.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 89.96%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 90 %; model b: 89.96 %. Reported difference = 0.04 percentage points.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "incomparable_context",
+      "category": "values from incomparable contexts",
+      "result": {
+        "claim": {
+          "id": "incomparable_context",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Both models need values for the same metric, units, and explicit context.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "unknown_context",
+      "category": "context missing",
+      "result": {
+        "claim": {
+          "id": "unknown_context",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "The claim has no explicit experimental context. Cross-snippet comparisons abstain.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "different_units",
+      "category": "incomparable units",
+      "result": {
+        "claim": {
+          "id": "different_units",
+          "text": "Model A achieved lower latency than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Units or rounding prevent a reliable comparison.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved lower latency than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A latency = 80.0 ms.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B latency = 1.0 s.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 80 ms; model b: 1 s.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "metric_direction",
+      "category": "lower is better",
+      "result": {
+        "claim": {
+          "id": "metric_direction",
+          "text": "Model A achieved better latency than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "SUPPORTED",
+        "explanation": "Comparison agrees with reported values.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved better latency than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A latency = 10.0 ms.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B latency = 20.0 ms.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic comparison of contextualized reported values",
+        "calculation": "model a: 10 ms; model b: 20 ms. Reported difference = -10 ms.",
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true,
+      "numerical_correct": true
+    },
+    {
+      "id": "zero_baseline",
+      "category": "undefined relative change",
+      "result": {
+        "claim": {
+          "id": "zero_baseline",
+          "text": "Accuracy improved by 15% from 0% to 15%.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": null
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Relative change from a zero baseline is undefined.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Accuracy improved by 15% from 0% to 15%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": null,
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": false
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "negated_comparison",
+      "category": "negation abstention",
+      "result": {
+        "claim": {
+          "id": "negated_comparison",
+          "text": "Model A did not achieve higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Negation, uncertainty, an inequality, or an interval requires human interpretation.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A did not achieve higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": true
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    },
+    {
+      "id": "repeated_ambiguous_values",
+      "category": "conflicting underlying observations",
+      "result": {
+        "claim": {
+          "id": "repeated_ambiguous_values",
+          "text": "Model A achieved higher accuracy than Model B.",
+          "source_id": "E0",
+          "kind": "interpretive",
+          "context": "dataset=demo; split=test; run=1"
+        },
+        "verdict": "INSUFFICIENT_EVIDENCE",
+        "explanation": "Multiple reported values exist in the selected context; the comparison is ambiguous.",
+        "evidence": [
+          {
+            "id": "E0",
+            "document": "synthetic.pdf",
+            "page": 2,
+            "text": "Model A achieved higher accuracy than Model B.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E1",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 87.4%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E2",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model A accuracy = 80.0%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          },
+          {
+            "id": "E3",
+            "document": "synthetic.pdf",
+            "page": 1,
+            "text": "Model B accuracy = 84.2%.",
+            "kind": "text",
+            "section": "Unrecognized section",
+            "context": "dataset=demo; split=test; run=1",
+            "cells": null,
+            "bbox": null
+          }
+        ],
+        "method": "Deterministic verification",
+        "calculation": null,
+        "limitations": [
+          "Checks concern reported text and arithmetic, not experimental truth or scientific validity."
+        ],
+        "review_required": true
+      },
+      "references_valid": true,
+      "verdict_correct": true,
+      "required_evidence_present": true
+    }
+  ]
+}

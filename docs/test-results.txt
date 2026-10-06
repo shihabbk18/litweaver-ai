@@ -1,0 +1,8 @@
+Final executed command (7 October 2026, Asia/Dhaka):
+python -m pytest -q --tb=short -p no:cacheprovider
+
+........................................................                 [100%]
+56 passed in 5.41s
+
+This is the actual final command output, recorded after its successful execution.
+Synthetic evaluation metrics are separately recorded in evaluation/results.json.
