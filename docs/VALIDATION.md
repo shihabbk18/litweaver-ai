@@ -48,8 +48,8 @@ The 15-record browser search and the 10-record command-line smoke test use diffe
 
 - A live LLM provider or Ollama model was not available. Tool protocol/dispatch tests use identified doubles and are not claimed as live-model validation.
 - Docker is not installed, so the included container definition was not built.
-- GitHub CI has been written but not run on GitHub.
+- GitHub CI **passed** for source commit `f7d297af5216a6a8aebaaecbe4a9c557213e301e`: https://github.com/shihabbk18/litweaver-ai/actions/runs/37532675854. The workflow executed pytest and the synthetic evaluation on Ubuntu with Python 3.12.
 - Public GitHub publication was authorized on 7 October 2026; repository: https://github.com/shihabbk18/litweaver-ai. See the repository history for the published commit.
-- No authenticated public hosting deployment has been completed; there is no verified public URL.
+- Streamlit Community Cloud was opened and showed its sign-in page, including acceptance of its Terms of Service. User sign-in/terms acceptance is required before deployment can proceed; there is no verified public URL.
 
 The test runtime was Python 3.12.14, Streamlit 1.65.0, Pydantic 2.13.5, Pandas 2.3.3, PyMuPDF 1.28.2, NumPy 2.5.3, Plotly 6.9.0 and pytest 9.1.1. Exact installed packages are in `requirements-lock.txt`.

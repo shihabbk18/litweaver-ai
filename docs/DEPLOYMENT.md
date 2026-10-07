@@ -61,7 +61,7 @@ The included Dockerfile serves Streamlit on port 8501. Configure the hosting pla
 
 ## Current blockers
 
-- No authenticated hosting deployment has been established for this project. No public deployment URL has been generated or verified.
+- Streamlit Community Cloud currently shows its sign-in page. The user must sign in and accept the displayed Terms of Service before deployment can proceed. No public deployment URL has been generated or verified.
 - No live LLM credentials/model or installed Ollama runtime were present. Tool protocol tests use clearly identified doubles; live provider interoperability remains to be checked with the chosen model.
 
 The source, deterministic modes, sample PDF, evaluation, tests and exports can run locally while those external steps are pending.
